@@ -7,7 +7,7 @@ function Navigation(){
           <Navbar.Brand href="#home">David Sandoval</Navbar.Brand>
           <Nav style={{float:'right'}} className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#projects">Work</Nav.Link>
+            <Nav.Link href="#work">Work</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
