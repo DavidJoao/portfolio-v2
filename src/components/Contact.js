@@ -1,7 +1,7 @@
 function Contact(){
     return(
-        <div id="contact" className="contact-container" style={{height:'95vh', width:'100%', backgroundColor:'#E6EDF3'}}>
-            Contact
+        <div id="pagesan" className="contact-container" style={{height:'100vh', width:'100%', backgroundColor:'#213642'}}>  
+            
         </div>
     )
 }
