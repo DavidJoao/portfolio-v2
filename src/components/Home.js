@@ -2,15 +2,15 @@ import { Image, Card, ListGroup } from 'react-bootstrap'
 
 function Home(){
     return(
-        <div id='home' style={{backgroundColor:'#213642', width:'100%', height:'90vh', paddingTop:'5%'}}>
-                <Card className='main-card' style={{ width: '18rem', padding:'40px', margin:'0 auto', width:'80%', background:'none', border:'none', color:'white'}}>
-                    <Image style={{borderRadius:'100%', width:'250px', border:'5px solid #E6EDF3', boxShadow:"1px -1px 32px -5px #E6EDF3"}} src='https://i.ibb.co/7jCBG8X/myphoto.jpg'/>
+        <div id='pagesan' style={{backgroundColor:'#213642', width:'100%', height:'100vh', paddingTop:'5%', display:'flex', flexDirection:"column", justifyContent:"center", alignItems:'center'}}>
+                <Card className='main-card d-flex flex-sm-row' style={{ width: '18rem', padding:'40px', margin:'0 auto', width:'80%', background:'#17262e', color:'white', border:'2px solid #E6EDF3', boxShadow:'0px 1px 17px 0px rgba(255,255,255,0.75)'}}>
+                    <Image style={{borderRadius:'100%', width:'250px', border:'5px solid #E6EDF3'}} src='https://i.ibb.co/7jCBG8X/myphoto.jpg' className='m-md-5'/>
                     <Card.Body>
-                        <Card.Title>David Sandoval</Card.Title>
-                        <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                        </Card.Text>
+                         <h4>Welcome! I'm</h4>
+                        <h1 className='mt-3'>David Sandoval</h1>
+                        <h5>
+                        Front end developer located in Los Angeles, California with a passion for technology and always open to improve and learn new skills. I build custom and responsive web apps using latest technologies.
+                        </h5>
                     </Card.Body>
                 </Card>
 
