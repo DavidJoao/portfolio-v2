@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Projects(){
     return(
-            <div id="pagesan" style={{height:'auto', width:'100%', backgroundColor:'#213642', paddingBottom:'5%'}} className="projects-container d-flex flex-column">
+            <div style={{height:'auto', width:'100%', backgroundColor:'#213642', paddingBottom:'5%'}} className="projects-container d-flex flex-column">
                 <div style={{height:'auto', marginTop:'14%', marginLeft:'5%', marginRight:"5%"}}>
                     <h4 style={{color:'white', textAlign:'center'}}>Technologies I have worked with during my formation as front-end developer:</h4>
                     <Card style={{height:'40%', display:'flex', flexDirection:'row', justifyContent:'space-between', alignItems:'center', padding:'3%', boxShadow:'0px 1px 17px 0px rgba(255,255,255,0.75)', backgroundColor:'rgba(255,255,255,0.7)', border:'5px solid #E6EDF3'}}>
@@ -17,7 +17,7 @@ function Projects(){
                     <iconify-icon style={{ fontSize:'3rem' }} icon="simple-icons:mongodb">MongoDB</iconify-icon>
                     </Card>
                 </div>
-                <div style={{marginTop:'2%'}} className="p-5 d-flex flex-column flex-lg-row">
+                <div id="work" style={{marginTop:'2%'}} className="p-5 d-flex flex-column flex-lg-row">
                     <ProjectCard projectTitle={"Meet-N-Eat"} projectName={"Meet-N-Eat"} projectImage={"https://i.ibb.co/YLTzZHY/Screen-Shot-2022-08-22-at-10-53-01-AM.png"} projectLink={"https://meet-n-eat.netlify.app/home"}
                     projectDescription={"Ever found the perfect restaurant, but had no one to go with? Ever wanted to meet someone based on your love of food? Meet 'n Eat is an app that helps match people who have common tastes!"}
                     tech={"Javascript | React | Bootstrap | ExpressJS | NodeJS | MongoDB"} repo={"https://github.com/orgs/Venus-she-s-got-it/repositories"} />

@@ -75,7 +75,7 @@
    }
 }
 
-#pagesan {  
+.pagesan {  
   /* This section calls the slideInFromLeft animation we defined above */
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;

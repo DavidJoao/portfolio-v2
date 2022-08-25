@@ -11,16 +11,12 @@ function App() {
   return (
     <div>
       <div>
-        <Navigation/>
+            <Navigation/>
       </div>
-      <div>
-        <Routes>
-          <Route path='/' element={ <Home /> } />
-          <Route path='/work' element={ <Projects /> } />
-          <Route path='/education' element={ <Education /> }  />
-          <Route path='/contact' element={ <Contact /> } />
-        </Routes>
-      </div>
+        <Home />
+        <Projects />
+        <Education />
+        <Contact />
     </div>
   );
 }
