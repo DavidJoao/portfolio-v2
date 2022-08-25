@@ -2,7 +2,7 @@ import { Card, Button } from 'react-bootstrap'
 
 function ProjectCard( { projectName, projectTitle, projectDescription, projectImage, projectLink, tech, repo } ){
     return(
-        <Card style={{ width: '18rem', marginBottom:'6%', padding:'5%', backgroundColor:'#E6EDF3', boxShadow:'0px 1px 17px 0px rgba(255,255,255,0.75)', backgroundColor:'rgba(255,255,255,0.7)', border:'5px solid #E6EDF3' }} className="m-3">
+        <Card style={{ width: '100%', marginBottom:'6%', padding:'1%', backgroundColor:'#E6EDF3', boxShadow:'0px 1px 17px 0px rgba(255,255,255,0.75)', backgroundColor:'rgba(255,255,255,0.7)', border:'5px solid #E6EDF3' }} className="m-3">
         <Card.Img variant="top" src={projectImage} />
         <Card.Body style={{display:'flex', flexDirection:'column', justifyContent:'space-around'}}>
           <Card.Title>{projectTitle}</Card.Title>
